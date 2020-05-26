@@ -1,0 +1,23 @@
+body {
+    padding: 50px;
+    background-color: black !important;
+}
+.menu {
+    margin-top: 30px;
+}
+.row {
+    margin: 79px 0 79px !important;
+}
+.info{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+  }
+ .info > div {
+    background-color: black;
+    width: 100px;
+    margin: 3px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+ }
