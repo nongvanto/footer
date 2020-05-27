@@ -2,6 +2,13 @@ body {
     padding: 50px;
     background-color: black !important;
 }
+h6 {
+    font-size: 700;
+    color: white;
+}
+p {
+    color: rgb(241, 232, 232);
+}
 .menu {
     margin-top: 30px;
 }
@@ -21,3 +28,41 @@ body {
     line-height: 40px;
     font-size: 20px;
  }
+/*Don't forget to add Font Awesome CSS : "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"*/
+
+input[type="text"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+  }
+  
+  .inputWithIcon input[type="text"] {
+    padding:10px 16px;
+  }
+  
+  .inputWithIcon {
+    position: relative;
+  }
+  
+  .inputWithIcon i {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    padding: 16px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+  
+  .inputWithIcon input[type="text"]:focus + i {
+    color: dodgerBlue;
+  }
